@@ -26,7 +26,6 @@ class MySelf:
         try:
             self.age = int(new_age)
             return f"Your age has been updated to {self.age}."
-        
         except ValueError:
             return "Invalid input. Please enter a valid integer for age."
     
