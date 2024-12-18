@@ -1,4 +1,4 @@
-from fireram import piadozo, consultado
+from fireram import piadozo, consultado, andaya
 import os
 
 UNSET_OPTION = " "
@@ -30,7 +30,7 @@ def process_choice(user_choice):
         case '2':
             consultado.Customer.menu()
         case '3':
-            pass
+            andaya.MySelf.menu()
         case '4':
             pass
         case '5':
