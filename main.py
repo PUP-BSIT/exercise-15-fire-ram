@@ -1,4 +1,4 @@
-from fireram import piadozo, consultado, andaya, barcelos
+from fireram import piadozo, consultado, andaya, barcelos, veslino
 import os
 
 UNSET_OPTION = " "
@@ -34,7 +34,7 @@ def process_choice(user_choice):
         case '4':
             barcelos.Continent.start_menu()
         case '5':
-            pass
+            veslino.Movie.menu()
         case '0':
             pass
         case _:
