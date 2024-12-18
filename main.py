@@ -1,3 +1,4 @@
+from fireram import piadozo
 import os
 
 UNSET_OPTION = " "
@@ -25,7 +26,7 @@ def display_choice():
 def process_choice(user_choice):
     match user_choice:
         case '1':
-            pass
+            piadozo.CardGame.menu()
         case '2':
             pass
         case '3':
