@@ -1,4 +1,4 @@
-from fireram import piadozo, consultado, andaya
+from fireram import piadozo, consultado, andaya, barcelos
 import os
 
 UNSET_OPTION = " "
@@ -32,7 +32,7 @@ def process_choice(user_choice):
         case '3':
             andaya.MySelf.menu()
         case '4':
-            pass
+            barcelos.Continent.start_menu()
         case '5':
             pass
         case '0':
